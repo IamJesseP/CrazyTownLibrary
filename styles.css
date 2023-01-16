@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.flxbx{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457B9D;
+    min-height: 68px;
+    padding: 0px 35px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+
+nav > ul {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 35px;
+    border: #E63946;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #FAF9F9;
+    background-color:#E63946;
+
+}
+
+.navsearch{
+    padding: 5px 3px;
+    padding-left: 25px;
+    background: url("assets/Vector.png") no-repeat scroll 7px 7px; 
+    background-position-y: center;
+    background-color: #FAF9F9;
+    
+}
