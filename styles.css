@@ -107,3 +107,27 @@ a {
     font-size: 20px;
     box-shadow: 1px 1px 3px black;
 }
+
+.introsection{
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    min-height: 578px;
+    padding: 65px;
+    font-family: 'Montserrat';
+}
+
+.introsummary{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introsummary > p{
+    color: #121212;
+    max-width: 630px;
+    font-weight: 300;
+    font-size: 18.5px;
+    line-height: 23px;
+    text-align: left;
+    padding: 0px 10px;
+}
