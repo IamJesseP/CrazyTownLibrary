@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .flxbx{
@@ -12,7 +13,6 @@ nav{
     background-color: #457B9D;
     min-height: 68px;
     padding: 0px 35px;
-    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -24,6 +24,12 @@ nav > ul {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
 }
 
 .navbttn {
@@ -46,4 +52,19 @@ nav > ul {
     background-position-y: center;
     background-color: #FAF9F9;
     
+}
+
+.nav2{
+    justify-content: center;
+    background-color: #f1faee;
+    min-height: 63px;
+}
+
+.nav2 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+
 }
