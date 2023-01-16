@@ -42,13 +42,14 @@ a {
     font-family: 'Inter', sans-serif;
     color: #FAF9F9;
     background-color:#E63946;
+    box-shadow: 1px 1px 5px black;
 
 }
 
 .navsearch{
     padding: 5px 3px;
     padding-left: 25px;
-    background: url("assets/Vector.png") no-repeat scroll 7px 7px; 
+    background: url("assets/searchicon.png") no-repeat scroll 7px 7px; 
     background-position-y: center;
     background-color: #FAF9F9;
     
