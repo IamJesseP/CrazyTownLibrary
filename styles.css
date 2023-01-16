@@ -69,3 +69,41 @@ a {
     list-style-type: none;
 
 }
+
+.herosection{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 575px;
+    background: url("assets/herocover.png") no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    color: #f4f4f4;
+    box-shadow: 1px 1px 1px rgb(43, 42, 42);
+}
+
+.herosection > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -2px;
+}
+
+.herosection > h3 {
+    font-weight: 300;
+}
+
+.herosection > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 90px;
+    border: #E63946;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #FAF9F9;
+    background-color:#E63946;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px black;
+}
