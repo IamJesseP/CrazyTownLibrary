@@ -214,7 +214,7 @@ a {
 }
 
 .bookcard{
-    padding: 100px 100px 50px 100px;
+    padding: 100px 0px 50px 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -227,7 +227,7 @@ a {
     border-radius: 30px;
     background-color: #F1FAEE;
     padding: 65px 45px;
-    margin:0px 15px;
+    margin:15px 15px;
     box-shadow: 1px 1px 13px rgb(92, 92, 92);
 }
 
@@ -235,6 +235,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .bookcardbttn > button {
@@ -250,6 +251,8 @@ a {
     background-color:#E63946;
     font-size: 20px;
     box-shadow: 1px 1px 3px black;
+    max-height: 53.45px;
+    max-width: 380px;
 }
 
 .streamscroller{
@@ -260,7 +263,7 @@ a {
 }
 
 .streamscroller > img{
-    max-width: 24%;
+    max-width: 300px;
     margin: 0px 5px;
 }
 
