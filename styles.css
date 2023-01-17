@@ -238,7 +238,7 @@ a {
     flex-wrap: wrap;
 }
 
-.bookcardbttn > button {
+.bookcardbttn > button, .bookbttn2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,6 +254,12 @@ a {
     max-height: 53.45px;
     max-width: 380px;
 }
+
+.bookbttn2 > a {
+    padding: 12px 164px;
+    border-radius: 25px;
+}
+
 
 .streamscroller{
     justify-content: center;
