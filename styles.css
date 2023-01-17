@@ -189,6 +189,7 @@ a {
     text-align: center;
     font-family: 'Montserrat';
     font-size: 12px;
+    flex-wrap: wrap;
 }
 
 .bookcard > h1{
@@ -208,7 +209,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 15px;
+    margin: 5px 15px;
     padding: 15px 150px;
     border: #E63946;
     border-radius: 25px;
@@ -217,4 +218,15 @@ a {
     background-color:#E63946;
     font-size: 20px;
     box-shadow: 1px 1px 3px black;
+}
+
+.streamscroller{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.streamscroller > img{
+    max-width: 321px;
+    margin: 0px 5px;
 }
