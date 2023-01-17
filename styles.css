@@ -131,3 +131,51 @@ a {
     text-align: left;
     padding: 0px 10px;
 }
+
+.eventsection{
+    justify-content: center;
+    background-color: #1D3557;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.eventdesc{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    min-width: 500px;
+    margin: 10px 10px;
+}
+
+.eventdesc > h4 {
+    background-color: #E63946;
+    margin-top: -100px;
+    margin-bottom: -12px;
+    padding: 5px 10px 0px 10px;
+}
+.eventdesc > p {
+    padding: 5px 10px;
+    background-color: #E63946;
+    font-size: 12px;
+}
+
+.eventcard{
+    font-size: 18px;
+    flex-direction: column;
+    max-height: 50%;
+    max-width: 30%;
+    padding: 0px 15px;
+    margin-top: -25px;
+}
+
+.eventcard > h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.eventcard > p {
+    margin-top: -5px;
+
+}
