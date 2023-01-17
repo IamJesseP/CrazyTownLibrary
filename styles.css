@@ -72,7 +72,7 @@ a {
 
 }
 
-.herosection{
+.herosection, .aboutherosection{
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -84,6 +84,11 @@ a {
     text-align: center;
     color: #f4f4f4;
     box-shadow: 1px 1px 1px rgb(43, 42, 42);
+}
+
+.aboutherosection{
+    background: url("assets/abouthero.png") no-repeat;
+    background-size: cover;
 }
 
 .herosection > h1 {
