@@ -139,7 +139,7 @@ a {
     padding: 0px 10px;
 }
 
-.eventsection{
+.eventsection, .visionsection{
     justify-content: center;
     background-color: #1D3557;
     font-family: 'Montserrat';
@@ -149,8 +149,16 @@ a {
 
 }
 
+.visionsection{
+    flex-direction: column;
+    align-items: center;
+}
+
+.test{
+    flex-direction: row;
+}
+
 .eventdesc{
-    display: flex;
     flex-direction: column;
     max-width: 50%;
     min-width: 500px;
@@ -169,13 +177,24 @@ a {
     font-size: 12px;
 }
 
-.eventcard{
+.eventcard {
     font-size: 18px;
     flex-direction: column;
     max-height: 50%;
     max-width: 30%;
     padding: 0px 15px;
     margin-top: -25px;
+}
+
+.visioncard{
+    justify-content: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+
+.visioncard > p {
+    max-width: 500px;
+    padding: 0px 20px;
 }
 
 .eventcard > h1 {
