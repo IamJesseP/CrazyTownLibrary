@@ -387,3 +387,9 @@ font-size: 18px;
     color:#E0E0E0;
     font-size: 10px;
  }
+
+ .unavailable{
+    background-color: #E63946;
+    color:#E0E0E0;
+    font-size: 10px;
+ }
