@@ -55,12 +55,23 @@ a {
 
 .navsearch{
     padding: 5px 3px;
-    padding-left: 25px;
+    padding-left: 28px;
     background: url("assets/searchicon.png") no-repeat scroll 7px 7px; 
     background-position-y: center;
     background-color: #FAF9F9;
     
 }
+
+.booksearch{
+    padding: 5px 3px;
+    background: url("assets/searchbaricon.png") no-repeat scroll 7px 7px; 
+    background-size:19px ;
+    background-position: 490px;
+    background-color: #FAF9F9;
+    max-width: 80%;
+    
+}
+
 
 .nav2{
     justify-content: center;
@@ -334,3 +345,7 @@ font-size: 18px;
     padding: 5px 0px 30px 0px;
     justify-content: space-around;
   }
+
+ .searchsection{
+    padding: 30px;
+ }
