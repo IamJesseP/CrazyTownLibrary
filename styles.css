@@ -39,7 +39,7 @@ a {
 }
 
 
-.navbttn {
+.navbttn, .reservebttn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +51,12 @@ a {
     background-color:#E63946;
     box-shadow: 1px 1px 5px black;
 
+}
+
+.reservebttn {
+    height: 25px;
+    width: 206px;
+    margin-top: 8px;
 }
 
 .navsearch{
@@ -348,4 +354,31 @@ font-size: 18px;
 
  .searchsection{
     padding: 30px;
+ }
+
+ .reservecard{
+    flex-direction: column;
+    align-items: center;
+    width: 253px;
+    height: 351px;
+    background-color: #EFEFEF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-top: 15px;
+    font-family: 'Inter';
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.5);
+ }
+
+ .reservecard > img {
+    width: 219px;
+    height: 257px;
+ }
+
+ .available {
+    width: 10px;
+    height: 9px;
+    background-color: #208E1E;
+    color:#E0E0E0;
+    font-size: 10px;
  }
