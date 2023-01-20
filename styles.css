@@ -94,7 +94,7 @@ a {
 
 }
 
-.herosection, .aboutherosection{
+.herosection, .aboutherosection, .regherosection{
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -111,6 +111,15 @@ a {
 .aboutherosection{
     background: url("assets/abouthero.png") no-repeat;
     background-size: cover;
+}
+
+.regherosection{
+    background-image: url("./assets/registrationhero.png");
+    opacity: 0.98;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #1b365e;
+    min-height: 335px;
 }
 
 .herosection > h1 {
