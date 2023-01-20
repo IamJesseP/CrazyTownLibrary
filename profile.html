@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Crazy Town Library</title>
+</head>
+<body>
+    <nav class="flxbx">
+        <img src="./assets/CTLlogo.png" alt="CTL Logo" width="116px" height="46">
+        <ul class="flxbx">
+            <li><a href=index.html class="white">HOME</a></li> 
+            <li>SIGN IN</li> 
+            <li><button class="navbttn"><a href="registration.html" class="white">REGISTER</a></button></li>
+            <li><input type="text" class="flxbx navsearch"></li> 
+        </ul>
+    </nav>
+    <div class="flxbx nav2">
+        <ul>
+            <li><a href="./about.html" style="color: black;">ABOUT</a></li>
+            <li>ACOUNT</li>
+            <li>LOCATION</li>
+            <li>EVENTS</li>
+        </ul>
+    </div>
+    <div class="flxbx regherosection">
+        <img src="./assets/CTLlogo.png">
+        <h1><strong> Go anywhere. Learn Anything.</strong></h1>
+        <h3 style="font-size: 32px; margin-top: -5px;">Read every day.</h3>
+    </div>
+    <div class="flxbx regsignin">
+        <p>Already have an account? <span id="regsignin"><a>Login.</a></span></p>
+    </div>
+    <div class="formsection flxbx cntr">
+    <div class="formbox">
+    <form>
+        <div class="row">
+            <h5>Your Information</h5>
+            <div class="col">
+                <label for="fname">First Name:</label><br> 
+                <input type="text" id="fname" /> 
+            </div>
+            <div class="col">
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" />
+            </div>
+            <div class="col">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" /> 
+            </div>
+            <div class="col">
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" id="phone" />
+            </div>
+            <div class="col">
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" /> 
+            </div>
+            <div class="col">
+                <label for="student">Student:</label><br> 
+                <input type="text" id="student" />
+            </div>
+            <div class="col">
+                <label for="parent">Parent/Guardian:</label><br> 
+                <input type="text" id="parent" /> 
+            </div>
+            <div class="col">
+                <label for="parent">Library Card Number:</label><br> 
+                <input type="text" id="parent" /> 
+            </div>
+        </div>
+        <div class="row">
+            <h5>Address</h5>
+            <div class="col">
+                <label for="address1">Address:</label><br> 
+                <input type="text" id="address1" />
+            </div>
+            <div class="col">
+                <label for="address2">City, State, Zip:</label><br> 
+                <input type="text" id="address2" /> 
+            </div>
+        </div>
+        <div class="row">
+            <h5>Choose Your Password</h5>
+            <div class="col">
+                <label for="password">Old Password:</label><br> 
+                <input type="password" id="password" />
+            </div>
+            <div class="col">
+                <label for="password">New Password:</label><br> 
+                <input type="password" id="password"/> 
+            </div>
+            <div class="col">
+                <label for="password">Confirm Password:</label><br> 
+                <input type="password" id="password"/> 
+                <p>Password Strength:<br>
+                    Must contain<br>
+                    8 Characters Minimum<br>
+                    One uppercase letter</p>
+            </div>
+                <hr width="500px">
+                <div class="flxbx cntr">
+                    <input type="checkbox" id="terms"/> 
+                    <label for="terms" style="font-size:12px; margin-right:20px;">I Confirm that I have read and agree to the <a style="color:#457B9D;">terms of service</a></label>
+                    <input type="submit" value="Save" class="navbttn">
+                </div>    
+        </div>
+    </form>
+    </div>
+    </div>
+    <footer>
+        COPYRIGHT © 2023 CRAZY TOWN LIBRARY.  ALL RIGHTS RESERVED
+    </footer>
+</body>
