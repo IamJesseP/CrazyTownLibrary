@@ -313,9 +313,9 @@ footer{
 
 .arrow {
     border: solid #457B9D;
-    border-width: 0 8px 8px 0;
+    border-width: 0 4px 4px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 5px;
   }
 
     .left {
@@ -468,7 +468,7 @@ font-size: 18px;
     line-height: 18px;
 }
 
-.listcard{
+.listcard, .bklistcard{
     justify-content: center;
     align-items: flex-start;
     gap:30px;
@@ -481,10 +481,21 @@ font-size: 18px;
     border-radius: 25px;
 }
 
-.listcard > div > p {
+.listcard > div > p,
+.bklistcard > div > p
+ {
     margin-top: -20px;
 }
 
+.bklistcard{
+    margin:20px 0px;
+}
 .stars{
     color: #FFAC33;
+}
+
+.counter{
+    justify-content: center;
+    margin-left: 700px;
+    font-size: 12px;
 }
