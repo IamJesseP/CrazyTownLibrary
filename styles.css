@@ -328,7 +328,7 @@ footer{
     -webkit-transform: rotate(-45deg);
   }
 
-  .staffsection{
+  .staffsection, .reviewcard{
     justify-content: flex-start;
     align-items: flex-start;
     font-family: 'Montserrat';
@@ -498,4 +498,64 @@ font-size: 18px;
     justify-content: center;
     margin-left: 700px;
     font-size: 12px;
+}
+
+.descbox1{
+    border: solid 1px rgba(0, 0, 0, 0.35);
+    border-bottom-style: none;
+    border-left-style: none;
+    padding: 20px 10px 0px 0px;
+    width: 25%;
+}
+
+.descbox1 > ul > li{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    list-style-type: none;
+    margin: 25px 5px;
+}
+.descbox1 > ul > li > img{
+ width: 60px;
+}
+
+.descbox1 > ul > li > p {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.descbox2{
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    padding: 20px 20px;
+    margin: 0px 20px 20px 20px;
+    border: solid 1px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    font-family: 'Montserrat';
+}
+
+.descbox2 > ul > li {
+    list-style-type: none;
+    margin: 25px 0px;
+}
+
+.descbox2 > ul > li > img {
+    float: right;
+    position:relative;
+    padding: 10px 0px;
+}
+.reviewcard{
+    margin: 20px 0px;
+    height: 218px;
+}
+
+.reviewcard > img {
+ width: 250px;
+ height: 218px;
+}
+
+.reviewcard > div > p {
+    font-size: 80%;
+    
 }
