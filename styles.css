@@ -429,7 +429,7 @@ font-size: 18px;
     
 #regsignin{
     color: #457B9D;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .formsection{
     padding: 50px 0px;
@@ -623,5 +623,13 @@ font-size: 18px;
     .eventdesc > p {
         font-size: 10px;
     }
+    .formbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        flex-shrink: 1;
+    }
+
 
 }
