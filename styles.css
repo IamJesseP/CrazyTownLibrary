@@ -101,13 +101,15 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 575px;
-    background: url("assets/herocover.png") no-repeat;
-    background-size: cover;
     font-family: 'Montserrat';
     font-weight: 800;
     text-align: center;
     color: #f4f4f4;
-    box-shadow: 1px 1px 1px rgb(43, 42, 42);
+}
+
+.herosection{
+    background: url("assets/herocover.png") no-repeat;
+    background-size: cover; 
 }
 
 .aboutherosection{
@@ -214,7 +216,7 @@ a {
     font-size: 18px;
     flex-direction: column;
     max-height: 50%;
-    max-width: 30%;
+    max-width: 80%;
     padding: 0px 15px;
     margin-top: -25px;
 }
@@ -558,4 +560,68 @@ font-size: 18px;
 .reviewcard > div > p {
     font-size: 80%;
     
+}
+
+@media (max-width: 450px){
+    body{
+        font-size: 1.0em;
+    }
+
+    nav{
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #457B9D;
+        min-height: 68px;
+        padding: 0px 35px;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 24px;
+        color: #FAF9F9;
+    }
+    
+    nav > ul {
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+    .navsearch{
+        padding: 5px 3px;
+        background: url("assets/searchicon.png") no-repeat scroll 7px 7px; 
+        background-position-y: center;
+        background-color: #FAF9F9;
+    
+    }
+
+    .herosection{
+        background: url("assets/herocover.png") no-repeat;
+        background-size: 850px 600px;
+    }
+
+    .herosection > h1 {
+        font-size: 32px;
+        font-weight: 900;
+        margin-bottom: -2px;
+    }
+
+    
+    .introsummary > p{
+        width: 350px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .eventdesc{
+        min-width: 350px;
+    }
+    
+
+    .eventdesc > h4 {
+        padding: 3px 8px 0px 8px;
+    }
+
+    .eventdesc > p {
+        font-size: 10px;
+    }
+
 }
