@@ -5,7 +5,7 @@ A live preview is [here](https://iamjessep.github.io/CrazyTownLibrary/)
 
 ### Assignment
 * Implement an assigned figma design using HTML and CSS
-* Assigned [Figma file:](https://www.figma.com/file/2RU9bTBkRkee97DHngfBrG/Library?node-id=0%3A1&t=TACRrR6WJhtnjcLM-0)
+* [Assigned Figma file](https://www.figma.com/file/2RU9bTBkRkee97DHngfBrG/Library?node-id=0%3A1&t=TACRrR6WJhtnjcLM-0)
 
 ### Technologies
 * HTML
