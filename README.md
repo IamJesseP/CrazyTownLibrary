@@ -1,5 +1,6 @@
 # Crazy Town Library
 This project is a part of the [Reskill Americans Fullstack Bootcamp](https://reskillamericans.org/) curriculum
+
 A live preview is [here](https://iamjessep.github.io/CrazyTownLibrary/)
 
 ### Technologies
